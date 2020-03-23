@@ -1,0 +1,22 @@
+{
+    "name": "sdu/mfa",
+    "description": "Multi-factor authentication PHP applications through SDU's Azure Login Portal.",
+    "require": {
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "license": "proprietary",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Niels Faurskov",
+            "email": "nfa@sdu.dk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "SDU\\MFA\\": "src/"
+        }
+    }
+}
