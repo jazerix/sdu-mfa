@@ -64,7 +64,6 @@ class MFA
      */
     public static function protect(Filter $filter)
     {
-        die("HIT");
         if (self::isGuest())
             self::instance()->authenticate();
         if (self::user()->roles()->empty() && empty($filter->roles()))
